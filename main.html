@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260904-05-c4a2e96","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFLd8sKbwc,2","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Libre Baskerville":"YACgEUFdPdA,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YADLjI9qxTA,0","Nunito":"YACgEX8C5Gg,0","Oleo Script":"YACgEQQ14jI,0","Phantom Sans":"YAHO2E8Pb88,0","Playfair Display":"YACgEYmuCJE,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YADWjpfPmdk,0","Raleway":"YACgEVg3xZg,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Ubuntu":"YACgERDU--Q,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YADlN8CFZ8Q,0","ui-sans-serif":"YACkoN-xg4g,0"}}');</script><script src="/_sdk/9e99ecf74af2a081.telemetry_sdk.js" integrity="sha512-tZ7fmfTx2KpCLjXQnEuL9azQ4A5+7+xumsx6r/WYVD0zCP/8LP8hDeCypMQesmP+WyAew4g7l5Ah23Bjd6yoVg=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEALTH Racing — Engineered to Compete</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#0b0c0d; --graphite:#17191b; --panel:#202326; --line:rgba(255,255,255,.14); --silver:#c8ccce; --muted:#969c9f; --paper:#f1f2f0; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:"DM Sans",sans-serif; color:var(--paper); background:var(--ink); overflow-x:hidden; }
+    .mono { font-family:"Space Mono",monospace; }
+    .site-shell { width:100%; position:relative; overflow:hidden; background:#050607; }
+    .technical-grid { background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px); background-size:44px 44px; }
+    .carbon { background-color:#101214; background-image:linear-gradient(30deg,rgba(255,255,255,.035) 12%,transparent 12.5%,transparent 87%,rgba(255,255,255,.035) 87.5%,rgba(255,255,255,.035)),linear-gradient(150deg,rgba(255,255,255,.025) 12%,transparent 12.5%,transparent 87%,rgba(255,255,255,.025) 87.5%,rgba(255,255,255,.025)); background-size:10px 18px; }
+    .angle-cut { clip-path:polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%); }
+    .slant { transform:skewX(-16deg); }
+    .slant > * { transform:skewX(16deg); }
+    .rule { height:1px; background:var(--line); }
+    .nav-link { color:#b8bdc0; font-size:.72rem; letter-spacing:.13em; text-transform:uppercase; transition:color .2s ease; }
+    .nav-link:hover,.nav-link:focus { color:#fff; }
+    .hero-title { letter-spacing:-.095em; line-height:.76; font-family:"Space Mono",monospace; font-style:italic; font-weight:900; text-transform:uppercase; text-shadow:0 0 28px rgba(255,255,255,.12); }
+    .eyebrow { color:#b8bdc0; font-family:"Space Mono",monospace; font-size:.7rem; letter-spacing:.18em; text-transform:uppercase; }
+    .section-title { letter-spacing:-.055em; line-height:.9; }
+    .panel { border:1px solid var(--line); background:rgba(30,33,35,.92); }
+    .metal-button { background:#e9ebea; color:#111315; transition:transform .2s ease,background .2s ease; }
+    .metal-button:hover { background:#fff; transform:translateY(-2px); }
+    .outline-button { border:1px solid rgba(255,255,255,.38); color:#f4f4f1; transition:background .2s ease,border .2s ease; }
+    .outline-button:hover { background:rgba(255,255,255,.09); border-color:#fff; }
+    .photo-overlay { background:linear-gradient(90deg,rgba(8,9,10,.85),rgba(8,9,10,.05)); }
+    .hero-parallax-image { transform:translate3d(0,0,0) scale(1); transform-origin:center center; will-change:transform,opacity; }
+    .hero-parallax-content { will-change:transform,opacity; }
+    .reveal { animation:reveal .8s cubic-bezier(.16,1,.3,1) both; }
+    .scroll-reveal { opacity:0; transform:translateY(18px) scale(.985); transition:opacity .75s cubic-bezier(.16,1,.3,1),transform .75s cubic-bezier(.16,1,.3,1); transition-delay:var(--reveal-delay,0ms); }
+    .scroll-reveal.is-visible { opacity:1; transform:translateY(0) scale(1); }
+    .scroll-reveal.reveal-left { transform:translateX(-18px); }
+    .scroll-reveal.reveal-left.is-visible { transform:translateX(0); }
+    .scroll-reveal.reveal-right { transform:translateX(18px); }
+    .scroll-reveal.reveal-right.is-visible { transform:translateX(0); }
+    @media (prefers-reduced-motion:reduce) { .scroll-reveal,.reveal { opacity:1; transform:none; animation:none; transition:none; } html { scroll-behavior:auto; } }
+    .insta-carousel { position:relative; width:100%; height:560px; min-height:560px; perspective:1200px; touch-action:pan-y; overflow:hidden; }
+    .insta-track { position:relative; width:100%; height:560px; min-height:560px; max-height:560px; transform-style:preserve-3d; }
+    .insta-card { position:absolute; left:50%; top:50%; width:280px; height:440px; min-width:280px; max-width:280px; min-height:440px; max-height:440px; aspect-ratio:auto; transform-origin:center; transition:transform .65s cubic-bezier(.16,1,.3,1),opacity .65s ease,filter .65s ease; cursor:pointer; user-select:none; }
+    .insta-card img { display:block; width:280px; height:350px; min-width:280px; min-height:350px; max-width:280px; max-height:350px; aspect-ratio:4/5; object-fit:cover; }
+    #instagram-showcase, #instagram-showcase > div, #insta-carousel, #insta-track, .insta-card, .insta-card img { flex:none; }
+    #instagram-showcase .insta-card.scroll-reveal { opacity:initial; transform:none; }
+    .insta-card img { display:block; width:100%; aspect-ratio:4/5; object-fit:cover; }
+    .insta-card.is-active { cursor:grab; }
+    .insta-card.is-active:active { cursor:grabbing; }
+    .insta-card-info { position:relative; z-index:20; min-height:66px; background:#202326; opacity:1; visibility:visible; transform:none; } .insta-card-info p { opacity:1 !important; visibility:visible !important; transform:translateY(-3px) !important; animation:none !important; transition:none !important; } .insta-card.is-active .insta-card-info { opacity:1; visibility:visible; z-index:30; } .insta-card.is-active .insta-card-info p { opacity:1 !important; visibility:visible !important; transform:translateY(-3px) !important; }
+    @media (max-width:768px) { .insta-track { height:560px; min-height:560px; max-height:560px; } .insta-card { width:280px; min-width:280px; max-width:280px; } }
+    .delay-1 { animation-delay:.12s; }.delay-2 { animation-delay:.24s; }.delay-3 { animation-delay:.36s; }
+    .scroll-cue { animation:scroll-cue-bob 2.4s ease-in-out infinite; }
+    @keyframes scroll-cue-bob { 0%,100% { transform:translateY(0); opacity:.55; } 50% { transform:translateY(7px); opacity:1; } }
+    @media (prefers-reduced-motion:reduce) { .scroll-cue { animation:none; } }
+    @keyframes reveal { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
+    .image-card img { transition:transform .6s cubic-bezier(.16,1,.3,1),filter .4s ease; }
+    .image-card:hover img { transform:scale(1.04); filter:contrast(1.06); }
+    .sponsor-3-logo-image, .sponsor-1-logo, .sponsor-2-logo { filter:grayscale(1); transition:filter .25s ease; }
+    .sponsor-3-logo-image:hover, .sponsor-3-logo-image:focus, .sponsor-1-logo:hover, .sponsor-1-logo:focus, .sponsor-2-logo:hover, .sponsor-2-logo:focus, .sponsor-feature:hover .sponsor-1-logo, .sponsor-1:hover .sponsor-1-logo, .sponsor-2:hover .sponsor-2-logo, .sponsor-2.is-color .sponsor-2-logo, .sponsor-3:hover .sponsor-3-logo-image { filter:grayscale(0) !important; }
+    .minor-sponsor-logo { animation: sponsor-wave 4.8s ease-in-out infinite; }
+    .minor-sponsor-logo:nth-child(2) { animation-delay:.35s; }
+    .minor-sponsor-logo:nth-child(3) { animation-delay:.7s; }
+    .minor-sponsor-logo:nth-child(4) { animation-delay:1.05s; }
+    .minor-sponsor-logo:nth-child(5) { animation-delay:1.4s; }
+    .minor-sponsor-logo:nth-child(6) { animation-delay:1.75s; }
+    @keyframes sponsor-wave { 0%,100% { opacity:.42; transform:translateY(4px) scale(.985); } 18%,58% { opacity:1; transform:translateY(0) scale(1); } }
+    @media (prefers-reduced-motion:reduce) { .minor-sponsor-logo { animation:none; opacity:1; transform:none; } }
+    .gallery-item { cursor:pointer; }
+    .gallery-item::after { content:""; position:absolute; inset:0; background:linear-gradient(to top,rgba(0,0,0,.72),transparent 55%); pointer-events:none; }
+    .image-highlight { position:relative; }
+    .metric-number { letter-spacing:-.07em; }
+    .timeline-item:not(:last-child)::before { content:""; position:absolute; left:7px; top:26px; bottom:-28px; width:1px; background:rgba(255,255,255,.2); }
+    input,textarea { width:100%; background:#141618; border:1px solid #454a4d; color:#fff; padding:.9rem 1rem; outline:none; transition:border .2s ease,box-shadow .2s ease; }
+    input:focus,textarea:focus { border-color:#e8ebea; box-shadow:0 0 0 3px rgba(255,255,255,.12); }
+    .lightbox { position:absolute; inset:0; background:rgba(4,5,6,.72); backdrop-filter:blur(8px); }
+    .lightbox-panel { width:min(92vw,1400px); max-height:calc(100% - 2rem); display:flex; flex-direction:column; position:relative; overflow:hidden; border:1px solid rgba(255,255,255,.18); background:rgba(18,20,22,.98); box-shadow:0 24px 80px rgba(0,0,0,.45); }
+    .lightbox-header { flex:0 0 auto; }
+    .lightbox-media { min-height:0; flex:1 1 auto; display:flex; align-items:center; justify-content:center; }
+    .lightbox-media img { max-height:calc(72*min(var(--vh,1vh),1vh)); }
+    .lightbox-caption { flex:0 0 auto; }
+    @media (max-width:1023px) { .hero-title { font-size:clamp(4.2rem,20vw,7rem)!important; } .mobile-nav { display:none; } .mobile-nav.is-open { display:flex; } }
+    @media (max-width:640px) { #home .hero-image-desktop { display:none; } #home .hero-image-mobile { display:block; } }
+  </style>
+  <script src="/_sdk/fbe2ebfd64647c54.data_sdk.js" type="text/javascript" integrity="sha512-vkTX6CfvpHc3WbjK+tFJCaDuw4ERA4aEV/e5/7+MMJPMTF4RJYCI6CAwJBT/gtDW+dba4uLSsPUgDjVDHWtgUQ=="></script>
+  <script src="/_sdk/fcb6dc01f91829ac.resizing_sdk.js" type="text/javascript" integrity="sha512-YK8JfnN705qaEaVhiL7pcVB2Rs/BbdX5yxV55Az8zT/1JanyEWTw9HqCF915m9iV1YEaoil8qsjJz03l1Kb0Ug=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(5, 6, 7);">
+  <div class="site-shell">
+   <header class="fixed top-0 z-40 w-full border-b border-white/10 bg-[#0b0c0d]/90 backdrop-blur-md">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-0 lg:px-8" aria-label="Main navigation">
+     <a href="#home" class="flex h-14 items-center gap-3 overflow-hidden" aria-label="STEALTH home"> <img data-template-id="nav-logo" loading="lazy" class="canva-image h-24 w-auto max-w-[180px] translate-y-1 object-contain object-left" src="canva://MAHP7cS9rk0/1" alt="White STEALTH wordmark with an angular racing emblem on a black background." style="font-size: 88px;"> </a>
+     <div class="hidden items-center gap-7 md:flex">
+      <a class="nav-link" href="#stem-racing">What is STEM Racing?</a><a class="nav-link" href="#about">About Us</a><a class="nav-link" href="#achievements">Achievements</a><a class="nav-link" href="#car">Our Car</a><a class="nav-link" href="#events">Events</a><a class="nav-link" href="#sponsors">Sponsors</a><a class="nav-link" href="#instagram-showcase">SOCIAL</a><a class="nav-link" href="#gallery">Gallery</a><a class="nav-link" href="#contact">Contact</a>
+     </div><button id="menu-button" type="button" class="flex h-10 w-10 items-center justify-center border border-white/25 text-white md:hidden" aria-label="Open navigation" aria-expanded="false"> <i data-lucide="menu" class="h-5 w-5"></i> </button>
+    </nav>
+    <div id="mobile-nav" class="mobile-nav hidden flex-col gap-5 border-t border-white/10 bg-[#101214] px-6 py-6 md:hidden">
+     <a class="nav-link" href="#stem-racing">What is STEM Racing?</a><a class="nav-link" href="#about">About Us</a><a class="nav-link" href="#achievements">Achievements</a><a class="nav-link" href="#car">Our Car</a><a class="nav-link" href="#events">Events</a><a class="nav-link" href="#sponsors">Sponsors</a><a class="nav-link" href="#instagram-showcase">SOCIAL</a><a class="nav-link" href="#gallery">Gallery</a><a class="nav-link" href="#contact">Contact</a>
+    </div>
+   </header>
+   <main>
+    <section id="home" class="carbon relative flex min-h-[calc(100*min(var(--vh,1vh),1vh))] items-end overflow-hidden bg-[#050607] pt-24">
+     <div class="image-highlight hero-parallax-image absolute inset-0"><img data-template-id="hero-image" loading="lazy" class="canva-image hero-image-desktop absolute inset-0 block h-full w-full object-cover object-center opacity-25 grayscale" src="canva://MAHPwPRT3iI/1" alt="Black student racing car with Cardiff Audi branding viewed from above."> <img data-template-id="hero-image-mobile" loading="lazy" class="canva-image hero-image-mobile absolute inset-0 hidden h-full w-full object-contain object-center opacity-30 grayscale" src="canva://MAHS66dgrF4/1" alt="Black Cardiff Audi racing car viewed from above in a vertical composition.">
+     </div>
+     <div class="photo-overlay absolute inset-0"></div>
+     <div class="technical-grid absolute inset-0 opacity-40"></div>
+     <div class="hero-parallax-content relative mx-auto w-full max-w-7xl px-5 pb-14 pt-20 lg:px-8 lg:pb-20">
+      <div class="mb-8 flex items-center gap-3 reveal">
+       <span class="h-px w-12 bg-white/70"></span>
+       <p data-template-id="hero-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 500; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">STEM RACING TEAM / EST. 2024</p>
+      </div>
+      <h1 data-template-id="hero-title" class="canva-text hero-title reveal delay-1 max-w-5xl text-[clamp(5.8rem,15vw,13.5rem)] font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: italic; font-size: 85px; letter-spacing: -0.2rem; line-height: 0.8;">STEALTH</h1>
+      <div class="mt-12 grid max-w-4xl gap-8 border-t border-white/25 pt-7 md:grid-cols-[1.2fr_.8fr] reveal delay-2">
+       <div class="max-w-xl space-y-3 text-xl leading-relaxed text-[#f1f2f0] md:text-2xl">
+        <p data-template-id="hero-statement-intro" class="canva-text font-normal" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 19px;">We are STEALTH, a Welsh STEM racing team aged 13 to 14. Welcome to our official website.</p>
+        <p data-template-id="hero-statement-emphasis" class="canva-text font-bold uppercase tracking-[.04em]" style="color: rgb(255, 255, 255); font-weight: 800; font-style: italic; font-size: 19px; letter-spacing: -0.044rem;">You’ll never see us coming…</p>
+       </div>
+       <div class="flex flex-col items-start gap-4 md:items-end">
+        <a href="#car" data-template-id="hero-cta" class="canva-button metal-button angle-cut inline-flex items-center gap-3 px-5 py-3 text-xs font-bold uppercase tracking-[.16em]" style="background: rgb(233, 235, 234); color: rgb(17, 19, 21); font-weight: 700; letter-spacing: 0.08rem;"><span></span><i data-lucide="arrow-up-right" class="h-4 w-4"></i></a>
+        <p data-template-id="hero-index" class="canva-text mono text-xs text-[#9ca3a6]" style="color: rgb(169, 175, 177); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">ENGINEERED TO COMPETE</p>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="relative border-y border-white/10 bg-[#111315] text-[#f1f2f0]">
+     <div class="mx-auto grid max-w-7xl gap-px bg-white/15 md:grid-cols-3">
+      <article data-template-id="achievement-card-1" class="canva-card bg-[#202326] p-7 lg:p-9" style="background: rgb(32, 35, 38);">
+       <p data-template-id="achievement-card-1-label" class="canva-text mono text-xs text-[#555b5e]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">NATIONAL RANKING</p>
+       <p data-template-id="achievement-card-1-value" class="canva-text metric-number mt-7 text-5xl font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">9TH  PLACE </p>
+       <p data-template-id="achievement-card-1-copy" class="canva-text mt-2 text-sm text-[#4d5356]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">STEM Racing UK National finalists representing  Wales</p>
+      </article>
+      <article data-template-id="achievement-card-2" class="canva-card bg-[#202326] p-7 lg:p-9" style="background: rgb(32, 35, 38);">
+       <p data-template-id="achievement-card-2-label" class="canva-text mono text-xs text-[#555b5e]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">2ND FASTEST REACTION RACING </p>
+       <p data-template-id="achievement-card-2-value" class="canva-text metric-number mt-7 text-5xl font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">1.238  SECONDS</p>
+       <p data-template-id="achievement-card-2-copy" class="canva-text mt-2 text-sm text-[#4d5356]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">Second in the UK ‘26 National Final timesheet</p>
+      </article>
+      <article data-template-id="achievement-card-3" class="canva-card bg-[#202326] p-7 lg:p-9" style="background: rgb(32, 35, 38);">
+       <p data-template-id="achievement-card-3-label" class="canva-text mono text-xs text-[#555b5e]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">THE FASTEST TRACK TIME</p>
+       <p data-template-id="achievement-card-3-value" class="canva-text metric-number mt-7 text-5xl font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">1.070  SECONDS</p>
+       <p data-template-id="achievement-card-3-copy" class="canva-text mt-2 text-sm text-[#4d5356]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">Top of the UK ‘26 National Final timesheet</p>
+      </article>
+     </div>
+    </section>
+    <section id="stem-racing" class="technical-grid border-y border-white/10 px-5 py-16 text-[#f1f2f0] lg:px-8 lg:py-20">
+     <div class="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[.65fr_1.35fr] lg:items-center">
+      <div>
+       <p data-template-id="stem-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">01 / THE COMPETITION</p>
+       <h2 data-template-id="stem-title" class="canva-text section-title mt-4 text-4xl font-bold md:text-6xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">What is STEM Racing?</h2>
+      </div>
+      <div class="max-w-3xl">
+       <p data-template-id="stem-copy" class="canva-text text-lg leading-relaxed text-[#d0d4d5]" style="color: rgb(208, 212, 213); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.55;">STEM Racing is an international competition where school teams design, build, test, market and race miniature Formula 1 cars. It brings science, technology, engineering and mathematics to life, while developing teamwork, creativity, enterprise and real-world problem-solving.</p>
+       <div class="mt-6 flex flex-wrap gap-3"><a href="#achievements" data-template-id="stem-tag-1" class="canva-tag border border-white/30 px-3 py-2 mono text-[10px] font-bold uppercase tracking-[.12em] transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/60" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">ACHIEVEMENT</a> <a href="#car-engineering" data-template-id="stem-tag-2" class="canva-tag border border-[#9da4a5] px-3 py-2 mono text-[10px] font-bold uppercase tracking-[.12em] transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/60" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">ENGINEERING</a> <a href="#development-log" data-template-id="stem-tag-3" class="canva-tag border border-[#9da4a5] px-3 py-2 mono text-[10px] font-bold uppercase tracking-[.12em] transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/60" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">RACE DAY</a> <a href="https://stemracing.com" target="_blank" rel="noopener noreferrer" data-template-id="stem-learn-more" class="canva-link inline-flex items-center gap-2 border border-white/35 px-3 py-2 mono text-[10px] font-bold uppercase tracking-[.12em] text-[#f1f2f0] transition-colors hover:bg-white/10 hover:text-white hover:border-white" style="color: rgb(241, 242, 240); font-weight: 700; letter-spacing: 0.05rem;"><span data-template-id="stem-learn-more-text" class="canva-text" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">Learn more</span> <i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="about" class="technical-grid border-b border-white/10 px-5 py-24 lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <div class="grid gap-10 lg:grid-cols-[.7fr_1.3fr]">
+       <div>
+        <p data-template-id="about-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">02 / ABOUT US</p>
+        <h2 data-template-id="about-title" class="canva-text section-title mt-5 text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">Purpose in every line.</h2>
+       </div>
+       <div class="max-w-2xl">
+        <p data-template-id="about-copy" class="canva-text text-xl leading-relaxed text-[#d0d4d5]" style="color: rgb(208, 212, 213); font-weight: 400; font-style: normal; font-size: 20px; line-height: 1.5;">STEALTH is a STEM Racing team driven by engineering, innovation and ambition. We bring together technology, creativity and enterprise to turn ideas into something built to compete.</p>
+        <div class="mt-10">
+         <div class="mb-4 flex items-center gap-3"><span class="h-px w-8 bg-white/50"></span>
+          <p data-template-id="usp-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">OUR UNIQUE SELLING POINTS</p>
+         </div>
+         <div class="grid gap-px bg-white/15 sm:grid-cols-3">
+          <div data-template-id="value-1" class="canva-card bg-[#111315] p-5" style="background: rgb(17, 19, 21);">
+           <h3 data-template-id="value-1-title" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Pioneer</h3>
+           <p data-template-id="value-1-copy" class="canva-text mt-2 text-sm leading-relaxed text-[#a8afb1]" style="color: rgb(168, 175, 177); font-weight: 400; font-style: normal; font-size: 16px;">Inspiring others into STEM by our innovations. Showing everyone that it’s possible.</p>
+          </div>
+          <div data-template-id="value-2" class="canva-card bg-[#111315] p-5" style="background: rgb(17, 19, 21);">
+           <h3 data-template-id="value-2-title" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Silent Impact</h3>
+           <p data-template-id="value-2-copy" class="canva-text mt-2 text-sm leading-relaxed text-[#a8afb1]" style="color: rgb(168, 175, 177); font-weight: 400; font-style: normal; font-size: 16px;">Silently making purposeful  decisions. We reveal only what adds value, allowing our work to speak louder than promises.</p>
+          </div>
+          <div data-template-id="value-3" class="canva-card bg-[#111315] p-5" style="background: rgb(17, 19, 21);">
+           <h3 data-template-id="value-3-title" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Future Focused</h3>
+           <p data-template-id="value-3-copy" class="canva-text mt-2 text-sm leading-relaxed text-[#a8afb1]" style="color: rgb(168, 175, 177); font-weight: 400; font-style: normal; font-size: 16px;">Creating environmental, social and economic value that lasts beyond the competition..</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="mt-20 grid gap-8 lg:grid-cols-[1.15fr_.85fr]">
+       <div class="story-visual relative max-w-2xl pl-3 pt-3">
+        <span class="pointer-events-none absolute left-0 top-0 h-20 w-20 border-l border-t border-white/55"></span> <span class="pointer-events-none absolute bottom-0 right-0 h-24 w-24 border-b border-r border-white/35"></span> <span class="pointer-events-none absolute left-7 top-7 h-px w-24 bg-white/35"></span> <span class="pointer-events-none absolute bottom-7 right-7 h-px w-20 bg-white/25"></span> <span class="pointer-events-none absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-white/10"></span> <span class="pointer-events-none absolute left-8 top-1/2 h-px w-[calc(100%-4rem)] bg-white/10"></span> <span class="pointer-events-none absolute left-7 top-1/2 h-3 w-px -translate-y-1/2 bg-white/55"></span> <span class="pointer-events-none absolute right-7 top-1/2 h-3 w-px -translate-y-1/2 bg-white/55"></span> <span class="pointer-events-none absolute left-7 top-12 h-3 w-px bg-white/55"></span> <span class="pointer-events-none absolute right-7 top-12 h-3 w-px bg-white/55"></span> <span class="pointer-events-none absolute bottom-12 left-7 h-3 w-px bg-white/55"></span> <span class="pointer-events-none absolute bottom-12 right-7 h-3 w-px bg-white/55"></span> <span class="pointer-events-none absolute bottom-5 left-6 z-10 bg-[#0b0c0d]/80 px-2 py-1 mono text-[9px] tracking-[.18em] text-white/70">STEALTH / FIELD NOTE 01</span>
+        <div class="image-highlight angle-cut relative"><img data-template-id="story-image" loading="lazy" class="canva-image angle-cut h-[420px] w-full object-cover grayscale lg:h-[460px]" src="canva://MAHScc71xv0/1" alt="STEALTH student team members holding a Welsh flag at a STEM Racing event.">
+        </div>
+       </div>
+       <div class="flex flex-col justify-center">
+        <p data-template-id="story-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">OUR STORY</p>
+        <h3 data-template-id="story-title" class="canva-text mt-4 text-3xl font-bold tracking-tight" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 19px;">Young Innovators.</h3>
+        <div class="mt-5 max-w-xl leading-relaxed text-[#b8bec0]">
+         <p data-template-id="story-copy" class="canva-text" style="color: rgb(184, 190, 192); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">We may be 13-14 year olds, but we don’t believe age limits our innovation. From designing and testing to marketing, manufacturing and budgeting, we’re constantly learning, adapting and finding smarter ways to solve problems. Every setback teaches us something new and every success drives us to aim even higher.
+
+But for us, the success isn’t the end goal. We want to use what we learn to inspire others, challenge expectations and prove that ambitious ideas can come from anywhere, regardless of age or background.
+
+</p>
+         <p data-template-id="story-copy-final" class="canva-text font-bold" style="color: rgb(184, 190, 192); font-weight: 700; font-style: normal; font-size: 16px;">We are STEALTH. And we’re only getting started.</p><img data-template-id="story-logo" loading="lazy" class="canva-image mx-auto mt-10 h-auto w-72 object-contain" src="canva://MAHSg2tIsx4/1" alt="STEALTH racing team logo">
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="bg-[#10161c] px-5 py-24 lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <div class="flex flex-wrap items-end justify-between gap-6">
+       <div>
+        <p data-template-id="team-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">THE PEOPLE BEHIND STEALTH</p>
+        <h2 data-template-id="team-title" class="canva-text section-title mt-5 text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">Meet the team.</h2>
+       </div>
+       <p data-template-id="team-note" class="canva-text max-w-sm text-sm leading-relaxed text-[#a8afb1]" style="color: rgb(168, 175, 177); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;"></p>
+      </div>
+      <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+       <article class="image-card image-highlight overflow-hidden bg-[#1d2022]"><img data-template-id="member-1-image" loading="lazy" class="canva-image h-72 w-full object-cover grayscale" src="canva://MAHQSkot30w/1" alt="STEALTH team member being interviewed with a microphone.">
+        <div class="border-t border-white/10 p-5">
+         <p data-template-id="member-1-role" class="canva-text mono text-[10px] text-[#aab0b2]" style="color: rgb(170, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">PROJECT MANAGER</p>
+         <h3 data-template-id="member-1-name" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Jessica J</h3>
+         <blockquote data-template-id="member-1-quote" class="canva-text mt-4 border-l border-white/35 pl-3 text-sm italic leading-relaxed text-[#c5cacc]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: italic; font-size: 16px; line-height: 1.5;">“STEM Racing has made my time management and organisation has improved immensely. I find myself finishing responsibilities early.”</blockquote>
+        </div>
+       </article>
+       <article class="image-card image-highlight overflow-hidden bg-[#1d2022]"><img data-template-id="member-2-image" loading="lazy" class="canva-image h-72 w-full object-cover object-[center_82%] grayscale" src="canva://MAHP7moSKuE/1" alt="STEALTH student team member being interviewed on stage.">
+        <div class="border-t border-white/10 p-5">
+         <p data-template-id="member-2-role" class="canva-text mono text-[10px] text-[#aab0b2]" style="color: rgb(170, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">LEAD ENGINEER</p>
+         <h3 data-template-id="member-2-name" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Siddharth S</h3>
+         <blockquote data-template-id="member-2-quote" class="canva-text mt-4 border-l border-white/35 pl-3 text-sm italic leading-relaxed text-[#c5cacc]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: italic; font-size: 16px; line-height: 1.5;">“Through STEM Racing, I’ve learnt how to run and analyse CFD simulations and use advanced CAD techniques such as multi profile lofts.”</blockquote>
+        </div>
+       </article>
+       <article class="image-card image-highlight overflow-hidden bg-[#1d2022]"><img data-template-id="member-3-image" loading="lazy" class="canva-image h-72 w-full object-cover object-[center_35%] grayscale" src="canva://MAHQBTx2fwM/1" alt="STEALTH team member speaking into a microphone at a racing event.">
+        <div class="border-t border-white/10 p-5">
+         <p data-template-id="member-3-role" class="canva-text mono text-[10px] text-[#aab0b2]" style="color: rgb(170, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">PR MANAGER</p>
+         <h3 data-template-id="member-3-name" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Howie L</h3>
+         <blockquote data-template-id="member-3-quote" class="canva-text mt-4 border-l border-white/35 pl-3 text-sm italic leading-relaxed text-[#c5cacc]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: italic; font-size: 16px; line-height: 1.5;">“STEM Racing has really helped me push out of my confront zone. Previously, I wouldn’t even dare to post on my personal social media. Now, I aspire to pursue a career in social media.”</blockquote>
+        </div>
+       </article>
+       <article class="image-card image-highlight overflow-hidden bg-[#1d2022]"><img data-template-id="member-4-image" loading="lazy" class="canva-image h-72 w-full object-cover grayscale" src="canva://MAHQSqmzl1s/1" alt="STEALTH team member holding a cloth at a racing event.">
+        <div class="border-t border-white/10 p-5">
+         <p data-template-id="member-4-role" class="canva-text mono text-[10px] text-[#aab0b2]" style="color: rgb(170, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">PARTNERSHIPS</p>
+         <h3 data-template-id="member-4-name" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Jayden Q</h3>
+         <blockquote data-template-id="member-4-quote" class="canva-text mt-4 border-l border-white/35 pl-3 text-sm italic leading-relaxed text-[#c5cacc]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: italic; font-size: 16px; line-height: 1.5;">“STEM Racing has made me build strong communication, marketing and teamwork skills. I’ve gained confidence through real world professional experience.”</blockquote>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="achievements" class="bg-[#0f1418] px-5 py-24 lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <p data-template-id="results-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">03 / ACHIEVEMENTS</p>
+      <div class="mt-8 grid gap-16 lg:grid-cols-[.72fr_1.28fr] lg:gap-20 lg:items-start">
+       <div class="lg:sticky lg:top-24 lg:pr-8">
+        <h2 data-template-id="results-title" class="canva-text section-title text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">Built to be measured.</h2>
+        <div class="mt-8 hidden h-px w-24 bg-white/50 lg:block"></div>
+       </div>
+       <div class="relative border-t border-white/20 pt-2">
+        <div data-template-id="result-1" class="canva-card grid gap-6 border-b border-white/20 px-5 py-8 md:grid-cols-[.72fr_1fr] md:gap-10 md:px-6 md:py-9" style="background: rgb(32, 35, 38);">
+         <p data-template-id="result-1-year" class="canva-text mono text-xs text-[#a9b0b2]" style="color: rgb(169, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">2026 / SOUTH WALES REGIONALS</p>
+         <div>
+          <h3 data-template-id="result-1-title" class="canva-text text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Second Place</h3>
+          <p data-template-id="result-1-copy" class="canva-text mt-3 max-w-lg text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">Qualified for the UK Nationals while also achieving the Fastest Car Award and Best Engineered Car Award.</p>
+         </div>
+        </div>
+        <div data-template-id="result-2" class="canva-card grid gap-6 border-b border-white/20 px-5 py-8 md:grid-cols-[.72fr_1fr] md:gap-10 md:px-6 md:py-9" style="background: rgb(32, 35, 38);">
+         <p data-template-id="result-2-year" class="canva-text mono text-xs text-[#a9b0b2]" style="color: rgb(169, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">2026 / UK NATIONALS RACING</p>
+         <div>
+          <h3 data-template-id="result-2-title" class="canva-text text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Top 1</h3>
+          <p data-template-id="result-2-copy" class="canva-text mt-3 max-w-lg text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">A composed race operation under competition pressure, the fastest car at 1.070 seconds at the UK National Final.</p>
+         </div>
+        </div>
+        <div data-template-id="result-3" class="canva-card grid gap-6 border-b border-white/20 px-5 py-8 md:grid-cols-[.72fr_1fr] md:gap-10 md:px-6 md:py-9" style="background: rgb(32, 35, 38);">
+         <p data-template-id="result-3-year" class="canva-text mono text-xs text-[#a9b0b2]" style="color: rgb(169, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">2026 / UK NATIONALS REACTION RACING</p>
+         <div>
+          <h3 data-template-id="result-3-title" class="canva-text text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Top 2</h3>
+          <p data-template-id="result-3-copy" class="canva-text mt-3 max-w-lg text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">A lightning fast response puts us to top 2 in the timesheets.</p>
+         </div>
+        </div>
+        <div data-template-id="result-4" class="canva-card grid gap-6 px-5 py-8 md:grid-cols-[.72fr_1fr] md:gap-10 md:px-6 md:py-9" style="background: rgb(32, 35, 38);">
+         <p data-template-id="result-4-year" class="canva-text mono text-xs text-[#a9b0b2]" style="color: rgb(169, 176, 178); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">2026 / UK NATIONAL FINAL </p>
+         <div>
+          <h3 data-template-id="result-4-title" class="canva-text text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Top 10 overall</h3>
+          <p data-template-id="result-4-copy" class="canva-text mt-3 max-w-lg text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">An excellent result for a first year Professional Class team. - 9th overall out of the 37 best teams in the UK,</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="mt-24 grid gap-12 border-t border-white/15 pt-12 lg:grid-cols-[1.05fr_.95fr] lg:gap-16">
+       <div id="development-log">
+        <p data-template-id="timeline-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">DEVELOPMENT LOG</p>
+        <h3 data-template-id="timeline-title" class="canva-text mt-4 text-3xl font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 19px;">The route to race day.</h3>
+        <div class="mt-9 space-y-8">
+         <div class="timeline-item relative pl-9"><span class="absolute left-0 top-1 h-4 w-4 border border-white bg-[#0b0c0d]"></span>
+          <p data-template-id="timeline-1-date" class="canva-text mono text-xs text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">SEPTEMBER 2025</p>
+          <p data-template-id="timeline-1-copy" class="canva-text mt-1 text-sm" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">Team framework formed and initial vehicle concepts evaluated.</p>
+         </div>
+         <div class="timeline-item relative pl-9"><span class="absolute left-0 top-1 h-4 w-4 border border-white bg-[#0b0c0d]"></span>
+          <p data-template-id="timeline-2-date" class="canva-text mono text-xs text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">JANUARY 2026</p>
+          <p data-template-id="timeline-2-copy" class="canva-text mt-1 text-sm" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">First prototype tested, measured and redesigned.</p>
+         </div>
+         <div class="timeline-item relative pl-9"><span class="absolute left-0 top-1 h-4 w-4 border border-white bg-[#0b0c0d]"></span>
+          <p data-template-id="timeline-3-date" class="canva-text mono text-xs text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">FEBRUARY 2026</p>
+          <p data-template-id="timeline-3-copy" class="canva-text mt-1 text-sm" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">Competed at Regionals and secured our place at Nationals, getting 2nd place.</p>
+         </div>
+         <div class="timeline-item relative pl-9"><span class="absolute left-0 top-1 h-4 w-4 border border-white bg-[#0b0c0d]"></span>
+          <p data-template-id="timeline-4-date" class="canva-text mono text-xs text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.06rem;">March 2026</p>
+          <p data-template-id="timeline-4-copy" class="canva-text mt-1 text-sm" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">Competed at Nationals and secured 9th place, also getting the fastest track time in the whole UK - 1.070s.</p>
+         </div>
+        </div>
+       </div>
+       <div class="relative">
+        <p data-template-id="results-video-caption" class="canva-text eyebrow mb-5 block" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">WATCH OUR 1.070S TRACK TIME</p><a href="https://www.youtube.com/watch?v=uroHtdl8DNU" target="_blank" rel="noopener noreferrer" class="image-highlight angle-cut group relative block aspect-video w-full overflow-hidden bg-black lg:w-[104%]" aria-label="Watch STEALTH 1.070 second track time race footage on YouTube"><img data-template-id="results-video-thumbnail" loading="lazy" class="canva-image h-full w-full object-contain grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0" src="canva://MAHQRXXmVoE/1" alt="STEALTH graphic announcing a 1.070 second track time."><span class="absolute inset-0 flex items-center justify-center bg-black/25 transition group-hover:bg-black/10"><span class="flex h-16 w-16 items-center justify-center rounded-full border border-white/70 bg-black/60 text-white transition group-hover:scale-110"><i data-lucide="play" class="h-7 w-7 fill-current"></i></span></span></a>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="car" class="carbon relative overflow-hidden border-y border-white/10 px-5 py-24 lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <div class="grid gap-10 lg:grid-cols-[1.1fr_.9fr]">
+       <div>
+        <p data-template-id="car-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">04 / OUR CAR</p>
+        <h2 data-template-id="car-title" class="canva-text section-title mt-5 text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 25px; letter-spacing: -0.05rem;">NIGHTFALL
+</h2>
+        <p data-template-id="car-subtitle" class="canva-text mt-4 text-lg italic text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: italic; font-size: 18px;">Where daylight ends and darkness begins…</p>
+        <p data-template-id="car-copy" class="canva-text mt-8 max-w-xl text-lg leading-relaxed text-[#c5cacc]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Every surface, contour and component on our car has a job to do. The result is a refined design built to reduce drag, manage stability and make every millisecond count.</p>
+        <div class="mt-10 grid grid-cols-3 gap-3">
+         <div>
+          <p data-template-id="car-stat-1-value" class="canva-text metric-number text-4xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">1. 070</p>
+          <p data-template-id="car-stat-1-label" class="canva-text mono mt-2 text-[10px] text-[#a7adaf]" style="color: rgb(167, 173, 175); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.05rem;">SEC TRACK TIME</p>
+         </div>
+         <div>
+          <p data-template-id="car-stat-2-value" class="canva-text metric-number text-4xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">500+</p>
+          <p data-template-id="car-stat-2-label" class="canva-text mono mt-2 text-[10px] text-[#a7adaf]" style="color: rgb(167, 173, 175); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.05rem;">CAD ITERATIONS</p>
+         </div>
+         <div>
+          <p data-template-id="car-stat-3-value" class="canva-text metric-number text-4xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">1000+</p>
+          <p data-template-id="car-stat-3-label" class="canva-text mono mt-2 text-[10px] text-[#a7adaf]" style="color: rgb(167, 173, 175); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.05rem;">HOURS DEVELOPING</p>
+         </div>
+        </div>
+       </div>
+       <div class="image-highlight relative"><img data-template-id="car-hero-image" loading="lazy" class="canva-image angle-cut h-[400px] w-full object-cover grayscale" src="canva://MAHPv9EUeT8/1" alt="Red and black racing car components arranged on a white surface.">
+        <div data-template-id="car-image-caption" class="canva-banner absolute bottom-0 left-0 bg-[#e8ebea] px-4 py-3 text-[#111315]" style="background: rgb(0, 0, 0); color: rgb(241, 242, 240);"><span class="canva-text mono text-[10px]"></span>
+        </div>
+       </div>
+      </div>
+      <p id="car-engineering" data-template-id="car-features-kicker" class="canva-text eyebrow mb-4" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">ENGINEERING</p>
+      <div class="mt-14 grid gap-4 md:grid-cols-3">
+       <article data-template-id="car-feature-1" class="canva-card panel p-6" style="background: rgb(32, 35, 38);">
+        <h3 data-template-id="car-feature-1-title" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Optimisation</h3>
+        <p data-template-id="car-feature-1-copy" class="canva-text mt-3 text-sm leading-relaxed text-[#abb1b3]" style="color: rgb(171, 177, 179); font-weight: 400; font-style: normal; font-size: 16px;">We focused on speed and stability through aerodynamic refinement.
+Nightfall’s geometry was developed with a focus on reducing drag while maintaining the stability needed for consistent performance. We used Simscale/CFD to further identify areas for improvement and refine the car’s profile.</p>
+       </article>
+       <article data-template-id="car-feature-2" class="canva-card panel p-6" style="background: rgb(32, 35, 38);">
+        <h3 data-template-id="car-feature-2-title" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Build precisely </h3>
+        <p data-template-id="car-feature-2-copy" class="canva-text mt-3 text-sm leading-relaxed text-[#abb1b3]" style="color: rgb(171, 177, 179); font-weight: 400; font-style: normal; font-size: 16px;">Turning a digital design into a precise physical car.
+Our manufacturing process focuses on accuracy at every stage, from machining the body to finishing the final surfaces. We use measured checks throughout the build to ensure the finished car stays as close as possible to our intended design.</p>
+       </article>
+       <article data-template-id="car-feature-3" class="canva-card panel p-6" style="background: rgb(32, 35, 38);">
+        <h3 data-template-id="car-feature-3-title" class="canva-text mt-2 text-xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">How we know it works</h3>
+        <p data-template-id="car-feature-3-copy" class="canva-text mt-3 text-sm leading-relaxed text-[#abb1b3]" style="color: rgb(171, 177, 179); font-weight: 400; font-style: normal; font-size: 16px;">Testing, analysing and refining every iteration.
+We didn’t just design once and simply manufacture. We used testing and analysis to identify weaknesses, make informed changes and evaluate each iteration. The final design is the result of repeatedly feeding what we learned back into the engineering process.</p>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="events" class="carbon relative overflow-hidden border-y border-white/10 px-5 py-24 lg:px-8 lg:py-32">
+     <div class="absolute right-[8%] top-16 hidden h-48 w-px bg-white/20 lg:block"></div>
+     <div class="mx-auto max-w-7xl">
+      <div class="flex flex-wrap items-end justify-between gap-8">
+       <div>
+        <p data-template-id="events-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">05 / UPCOMING EVENTS</p>
+        <h2 data-template-id="events-title" class="canva-text section-title mt-5 text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">Next on the grid.</h2>
+       </div>
+       <p data-template-id="events-copy" class="canva-text max-w-sm text-sm leading-relaxed text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Track the moments ahead: race weekends, technical showcases, and the next opportunities to put our work under pressure.</p>
+      </div>
+      <div class="mt-12 grid gap-px bg-white/15 lg:grid-cols-3">
+       <article data-template-id="event-1" class="canva-card panel relative overflow-hidden p-6 lg:p-8" style="background: rgb(32, 35, 38);">
+        <div class="absolute right-0 top-0 h-16 w-16 border-b border-l border-white/15"></div>
+        <p data-template-id="event-1-date" class="canva-text mono text-xs text-[#c8ccce]" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">JANUARY 2027</p>
+        <h3 data-template-id="event-1-title" class="canva-text mt-12 text-2xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">In-house track testing</h3>
+        <p data-template-id="event-1-location" class="canva-text mt-3 text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">Cardiff / St John’s College</p>
+        <div class="mt-14 flex items-center justify-between border-t border-white/15 pt-4"><span data-template-id="event-1-status" class="canva-text mono text-[10px] text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">01 / PREPARE</span>
+        </div>
+       </article>
+       <article data-template-id="event-2" class="canva-card panel relative overflow-hidden p-6 lg:p-8" style="background: rgb(32, 35, 38);">
+        <div class="absolute right-0 top-0 h-16 w-16 border-b border-l border-white/15"></div>
+        <p data-template-id="event-2-date" class="canva-text mono text-xs text-[#c8ccce]" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;"> Estimate: FEBRUARY 2027</p>
+        <h3 data-template-id="event-2-title" class="canva-text mt-12 text-2xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">South Wales Regionals</h3>
+        <p data-template-id="event-2-location" class="canva-text mt-3 text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">South Wales / Regional Final</p>
+        <div class="mt-14 flex items-center justify-between border-t border-white/15 pt-4"><span data-template-id="event-2-status" class="canva-text mono text-[10px] text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">02 / COMPETE</span>
+        </div>
+       </article>
+       <article data-template-id="event-3" class="canva-card panel relative overflow-hidden p-6 lg:p-8" style="background: rgb(32, 35, 38);">
+        <div class="absolute right-0 top-0 h-16 w-16 border-b border-l border-white/15"></div>
+        <p data-template-id="event-3-date" class="canva-text mono text-xs text-[#c8ccce]" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">MARCH 2027</p>
+        <h3 data-template-id="event-3-title" class="canva-text mt-12 text-2xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">UK Nationals</h3>
+        <p data-template-id="event-3-location" class="canva-text mt-3 text-sm text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">United Kingdom / National Final</p>
+        <div class="mt-14 flex items-center justify-between border-t border-white/15 pt-4"><span data-template-id="event-3-status" class="canva-text mono text-[10px] text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.08rem;">03 / DELIVER</span>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="sponsors" class="technical-grid border-y border-white/10 px-5 py-24 text-[#f1f2f0] lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <p data-template-id="sponsor-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">06 / PARTNERSHIPS</p>
+      <div class="mt-5 grid gap-10 lg:grid-cols-[.85fr_1.15fr]">
+       <h2 data-template-id="sponsor-title" class="canva-text section-title text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">Back the next lap. Take a look at our 2025/2026 season sponsors.</h2>
+       <div>
+        <p data-template-id="sponsor-copy" class="canva-text max-w-xl text-xl leading-relaxed text-[#d0d4d5]" style="color: rgb(208, 212, 213); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Sponsorship turns ambition into access: materials, tools, competition travel and opportunities for young engineers to perform at their best.</p><a href="#contact" data-template-id="sponsor-cta" class="canva-button mt-8 inline-flex items-center gap-3 bg-[#151719] px-5 py-3 text-xs font-bold uppercase tracking-[.15em] text-white" style="background: rgb(21, 23, 25); color: rgb(255, 255, 255); font-weight: 700; letter-spacing: 0.08rem;"><span data-template-id="sponsor-cta-text" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Become a sponsor</span><i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+       </div>
+      </div>
+      <div class="sponsor-wall mt-14 grid gap-4 lg:grid-cols-[1.15fr_.85fr]">
+       <article data-template-id="sponsor-1" class="canva-card sponsor-feature relative min-h-[390px] overflow-hidden bg-[#111315] p-7 text-[#e9ebea] lg:p-10" style="background: rgb(32, 35, 38);"><span class="mono absolute right-7 top-7 text-[10px] tracking-[.18em] text-[#8f979a]">PRINCIPAL SPONSOR</span>
+        <div class="flex min-h-[210px] items-center border-b border-white/15 pr-12"><img data-template-id="sponsor-1-logo" loading="lazy" class="canva-image h-40 w-full object-contain object-left grayscale md:h-52" src="canva://MAHScNXCbGY/1" alt="White CSconnected wordmark with circular emblem on a transparent background">
+        </div>
+        <p data-template-id="sponsor-1-mark" class="canva-text mono mt-7 text-4xl font-bold tracking-[-.08em]" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">CSCONNECTED</p>
+        <div class="mt-5 flex items-end justify-between gap-6">
+         <div>
+          <h3 data-template-id="sponsor-1-name" class="canva-text font-bold" style="color: rgb(197, 202, 204); font-weight: 700; font-style: normal; font-size: 19px;">CSConnected</h3>
+          <p data-template-id="sponsor-1-copy" class="canva-text mt-2 max-w-sm text-sm leading-relaxed text-[#aeb5b7]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: normal; font-size: 16px;">CSconnected is the official voice of Wales’ thriving compound semiconductor cluster, uniting top tech companies, research centers, and universities to drive global innovation.</p><a href="https://csconnected.com" target="_blank" rel="noopener noreferrer" data-template-id="sponsor-1-learn-more" class="canva-link mt-4 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(241, 242, 240); font-weight: 700; letter-spacing: 0.14rem;"><span data-template-id="sponsor-1-learn-more-text" class="canva-text" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">Learn more</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </div>
+       </article>
+       <div class="grid gap-4">
+        <article data-template-id="sponsor-2" class="canva-card sponsor-2 relative min-h-[245px] overflow-hidden bg-[#dfe2e1] p-7 text-[#111315] lg:p-9" style="background: rgb(32, 35, 38);"><span class="mono absolute right-7 top-7 text-[10px] tracking-[.18em] text-[#697174]">CAR SPONSOR</span>
+         <div class="flex h-28 items-center border-b border-[#aab0b2] pr-10">
+          <img data-template-id="sponsor-2-logo" loading="lazy" tabindex="0" class="canva-image h-24 w-full object-contain object-left grayscale" style="object-fit:contain;" src="canva://MAHScYmq3TA/1" alt="Cardiff Audi and Mon Motors logo in full colour">
+         </div>
+         <div class="mt-5 flex items-end justify-between gap-5">
+          <div>
+           <p data-template-id="sponsor-2-mark" class="canva-text mono text-3xl font-bold tracking-[-.06em]" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">CARDIFF AUDI</p>
+           <h3 data-template-id="sponsor-2-name" class="canva-text mt-3 font-bold" style="color: rgb(197, 202, 204); font-weight: 700; font-style: normal; font-size: 19px;">Cardiff Audi</h3>
+           <p data-template-id="sponsor-2-copy" class="canva-text mt-1 text-sm leading-relaxed text-[#555b5e]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: normal; font-size: 16px;">Cardiff Audi is an authorized main Audi car dealership part of the Mon Motors Group, located at Wagtail Close, Cardiff Gate Business Park, offering new and approved used vehicle sales, servicing, and parts..</p><a href="https://www.monmotors.com/audi/dealerships/cardiff" target="_blank" rel="noopener noreferrer" data-template-id="sponsor-2-learn-more" class="canva-link mt-4 inline-flex items-center gap-2 border border-[#697174] px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-white transition-colors hover:border-white hover:bg-white/10" style="color: rgb(255, 255, 255); font-weight: 700; letter-spacing: 0.14rem;"><span data-template-id="sponsor-2-learn-more-text" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">LEARN MORE</span><i data-lucide="arrow-up-right" class="h-3 w-3 text-white"></i></a>
+          </div><i data-lucide="north-east" class="h-5 w-5 shrink-0"></i>
+         </div>
+        </article>
+        <article data-template-id="sponsor-3" class="canva-card relative min-h-[245px] overflow-hidden bg-[#c9cecf] p-7 text-[#111315] lg:p-9" style="background: rgb(32, 35, 38);"><span class="mono absolute right-7 top-7 text-[10px] tracking-[.18em] text-[#697174]">MIDNIGHT SPONSOR</span>
+         <div class="flex h-28 items-center overflow-hidden border-b border-[#969d9f] pr-10">
+          <img data-template-id="sponsor-3-logo" loading="lazy" tabindex="0" class="canva-image sponsor-3-logo-image h-24 w-full max-w-full object-contain object-left md:h-28" src="canva://MAHScYHUMq8/1" alt="OmniLearn logo with circular book-and-learning emblem and the tagline Empowering Every Learner, Everywhere.">
+         </div>
+         <div class="mt-5 flex items-end justify-between gap-5">
+          <div>
+           <p data-template-id="sponsor-3-mark" class="canva-text mono text-3xl font-bold tracking-[-.06em]" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">OMNILEARN</p>
+           <h3 data-template-id="sponsor-3-name" class="canva-text mt-3 font-bold" style="color: rgb(197, 202, 204); font-weight: 700; font-style: normal; font-size: 19px;">OmniLearn</h3>
+           <p data-template-id="sponsor-3-copy" class="canva-text mt-1 text-sm leading-relaxed text-[#555b5e]" style="color: rgb(197, 202, 204); font-weight: 400; font-style: normal; font-size: 16px;">OmniLearn provides specialized online tutoring and AI-powered personalized learning tools to help students build confidence, close knowledge gaps, and prepare for exams.</p><a href="https://omnilearn.co.uk" target="_blank" rel="noopener noreferrer" data-template-id="sponsor-3-learn-more" class="canva-link mt-4 inline-flex items-center gap-2 border border-[#697174] px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-white transition-colors hover:border-white hover:bg-white/10" style="color: rgb(255, 255, 255); font-weight: 700; letter-spacing: 0.14rem;"><span>LEARN MORE</span><i data-lucide="arrow-up-right" class="h-3 w-3 text-white"></i></a>
+          </div><i data-lucide="north-east" class="h-5 w-5 shrink-0"></i>
+         </div>
+        </article>
+       </div>
+      </div>
+      <div class="mt-16 border-t border-white/15 pt-10">
+       <div class="flex flex-wrap items-end justify-between gap-5">
+        <div>
+         <p data-template-id="other-sponsors-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">OTHER SPONSORS</p>
+         <h3 data-template-id="other-sponsors-title" class="canva-text mt-3 text-3xl font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 19px;">Built by many hands.</h3>
+        </div>
+        <p data-template-id="other-sponsors-copy" class="canva-text max-w-md text-sm leading-relaxed text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;"></p>
+       </div>
+       <div class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        <div data-template-id="minor-sponsor-1" class="canva-card flex h-28 items-center justify-center bg-white p-4" style="background: rgb(255, 255, 255);">
+         <img data-template-id="minor-sponsor-1-logo" loading="lazy" class="canva-image minor-sponsor-logo max-h-16 w-full object-contain" style="object-fit:contain;" src="canva://MAHQSrIlT6U/1" alt="Ysgolano sponsor logo in black on white.">
+        </div>
+        <div data-template-id="minor-sponsor-2" class="canva-card flex h-28 items-center justify-center bg-white p-4" style="background: rgb(255, 255, 255);">
+         <img data-template-id="minor-sponsor-2-logo" loading="lazy" class="canva-image minor-sponsor-logo max-h-16 w-full object-contain" src="canva://MAHQSpDLMlw/1" alt="3DPrintUK sponsor logo in black on white.">
+        </div>
+        <div data-template-id="minor-sponsor-3" class="canva-card flex h-28 items-center justify-center bg-white p-4" style="background: rgb(255, 255, 255);">
+         <img data-template-id="minor-sponsor-3-logo" loading="lazy" class="canva-image minor-sponsor-logo max-h-16 w-full object-contain" src="canva://MAHQSnTkdhk/1" alt="Cardiff University Prifysgol Caerdydd sponsor logo in black on white.">
+        </div>
+        <div data-template-id="minor-sponsor-4" class="canva-card flex h-28 items-center justify-center bg-white p-4" style="background: rgb(255, 255, 255);">
+         <img data-template-id="minor-sponsor-4-logo" loading="lazy" class="canva-image minor-sponsor-logo max-h-16 w-full object-contain" src="canva://MAHQSgWOu4U/1" alt="Simscale sponsor logo in black on white.">
+        </div>
+        <div data-template-id="minor-sponsor-5" class="canva-card flex h-28 items-center justify-center bg-white p-4" style="background: rgb(255, 255, 255);">
+         <img data-template-id="minor-sponsor-5-logo" loading="lazy" class="canva-image minor-sponsor-logo max-h-16 w-full object-contain" src="canva://MAHQSrc0rTc/1" alt="Aston University Birmingham UK sponsor logo in black on white.">
+        </div>
+        <div data-template-id="minor-sponsor-6" class="canva-card flex h-28 items-center justify-center bg-white p-4" style="background: rgb(255, 255, 255);">
+         <img data-template-id="minor-sponsor-6-logo" loading="lazy" class="canva-image minor-sponsor-logo max-h-16 w-full object-contain" src="canva://MAHQSuf-MiQ/1" alt="bigHead logo in black lettering on a white background.">
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="instagram-showcase" class="relative overflow-hidden border-y border-white/10 bg-[#0d131a] px-5 py-24 lg:px-8 lg:py-32">
+     <div class="pointer-events-none absolute right-0 top-0 h-40 w-40 border-b border-l border-white/10"></div>
+     <div class="mx-auto max-w-7xl">
+      <p data-template-id="instagram-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">SOCIAL / FIELD NOTES</p>
+      <div class="mt-4 flex flex-wrap items-end justify-between gap-6">
+       <div>
+        <h2 data-template-id="instagram-title" class="canva-text section-title text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px;">FROM THE SHADOWS</h2>
+        <p data-template-id="instagram-copy" class="canva-text mt-5 max-w-md text-sm leading-relaxed text-[#aeb4b6]" style="color: rgb(174, 180, 182); font-weight: 400; font-style: normal; font-size: 16px;">A closer look at the work behind the lap.</p>
+       </div>
+       <div class="flex gap-2">
+        <button id="insta-prev" type="button" class="canva-button border border-white/25 p-3 text-white transition hover:border-white" aria-label="Previous Instagram post"><i data-lucide="arrow-left"></i></button><button id="insta-next" type="button" class="canva-button border border-white/25 p-3 text-white transition hover:border-white" aria-label="Next Instagram post"><i data-lucide="arrow-right"></i></button>
+       </div>
+      </div>
+      <div id="insta-carousel" class="insta-carousel mt-12" aria-label="Instagram post carousel">
+       <div id="insta-track" class="insta-track">
+        <article class="insta-card panel overflow-hidden" data-insta-index="0">
+         <a href="https://www.instagram.com/reel/DWPoSW_jYSD/?igsh=bnRwMWJtNTY3eG4y" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-1-image" loading="eager" width="280" height="350" class="canva-image pointer-events-auto" src="canva://MAHShImxyzA/1" alt="STEALTH car reveal retro edition graphic."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-1-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">2026 NATIONALS CAR REVEAL</p><a data-template-id="insta-post-1-link" href="https://www.instagram.com/reel/DWPoSW_jYSD/?igsh=bnRwMWJtNTY3eG4y" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-1-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+        <article class="insta-card panel overflow-hidden" data-insta-index="1">
+         <a href="https://www.instagram.com/p/DWUryt-DBjp/?igsh=ZjF5MGVzaHkzdDl5" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-2-image" loading="lazy" class="canva-image pointer-events-auto" src="canva://MAHShHHrvuY/1" alt="STEALTH team members sharing dinner with Warp &amp; NOVA."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-2-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">DINNER AFTER NATIONALS DAY 1</p><a data-template-id="insta-post-2-link" href="https://www.instagram.com/p/DWUryt-DBjp/?igsh=ZjF5MGVzaHkzdDl5" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-2-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+        <article class="insta-card panel overflow-hidden" data-insta-index="2">
+         <a href="https://www.instagram.com/p/DW6_PZejBIq/?igsh=MTFrYzc0emR1OWxodQ==" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-3-image" loading="lazy" class="canva-image pointer-events-auto" src="canva://MAHShE4tkFM/1" alt="STEALTH #STEALTHED Nationals graphic featuring team photography."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-3-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">#STEALTHED @ NATIONALS</p><a data-template-id="insta-post-3-link" href="https://www.instagram.com/p/DW6_PZejBIq/?igsh=MTFrYzc0emR1OWxodQ==" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-3-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+        <article class="insta-card panel overflow-hidden" data-insta-index="3">
+         <a href="https://www.instagram.com/p/DXfFB51EcFf/?igsh=aXg3YXR0aWtreml1" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-4-image" loading="lazy" class="canva-image pointer-events-auto" src="canva://MAHShD3mlNU/1" alt="STEALTH Morse code graphic on a dark blue background."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-4-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">ONE MORE YEAR</p><a data-template-id="insta-post-4-link" href="https://www.instagram.com/p/DXfFB51EcFf/?igsh=aXg3YXR0aWtreml1" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-4-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+        <article class="insta-card panel overflow-hidden" data-insta-index="4">
+         <a href="https://www.instagram.com/reel/DXHI7zGDD_J/?igsh=c2R3ZmtmZTJtbGM2" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-5-image" loading="lazy" class="canva-image pointer-events-auto" src="canva://MAHSgyagIhc/1" alt="STEALTH 1.07 second track time graphic from Nationals."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-5-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">1.070s LAP TIME AT NATIONALS</p><a data-template-id="insta-post-5-link" href="https://www.instagram.com/reel/DXHI7zGDD_J/?igsh=c2R3ZmtmZTJtbGM2" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-5-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+        <article class="insta-card panel overflow-hidden" data-insta-index="5">
+         <a href="https://www.instagram.com/p/DWedkOfDN8o/?igsh=MWVsbHhlZHo4OW93Yw==" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-6-image" loading="lazy" class="canva-image pointer-events-auto" src="canva://MAHSg2oohPs/1" alt="STEALTH Nationals 2026 recap graphic with team event photography."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-6-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">NATIONALS RECAP 2026</p><a data-template-id="insta-post-6-link" href="https://www.instagram.com/p/DWedkOfDN8o/?igsh=MWVsbHhlZHo4OW93Yw==" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-6-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+        <article class="insta-card panel overflow-hidden" data-insta-index="6">
+         <a href="https://www.instagram.com/p/DXT-O_AjNFu/?igsh=aXpmc2RpZTdlaGhl" target="_blank" rel="noopener noreferrer" class="insta-image-link relative z-10 block pointer-events-auto focus:outline-none focus:ring-2 focus:ring-white/80" aria-label="View Instagram post"><img data-template-id="insta-post-7-image" loading="lazy" class="canva-image pointer-events-auto" src="canva://MAHShGrFAH8/1" alt="STEALTH team thanking CSconnected beside a sponsor banner."></a>
+         <div class="insta-card-info p-3">
+          <p data-template-id="insta-post-7-subtitle" class="canva-text text-sm font-bold" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 16px;">THANK YOU TO CSCONNECTED</p><a data-template-id="insta-post-7-link" href="https://www.instagram.com/p/DXT-O_AjNFu/?igsh=aXpmc2RpZTdlaGhl" target="_blank" rel="noopener noreferrer" class="canva-link mt-3 inline-flex items-center gap-2 border border-white/25 px-3 py-2 text-[10px] font-bold uppercase tracking-[.14em] text-[#f1f2f0] transition-colors hover:border-white hover:bg-white/10" style="color: rgb(200, 204, 206); font-weight: 700;"><span data-template-id="insta-post-7-link-text" class="canva-text font-bold" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 16px;">View Instagram post</span><i data-lucide="arrow-up-right" class="h-3 w-3"></i></a>
+         </div>
+        </article>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="gallery" class="relative bg-[#111315] px-5 py-24 lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <div class="flex flex-wrap items-end justify-between gap-6">
+       <div>
+        <p data-template-id="gallery-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">07 / GALLERY</p>
+        <h2 data-template-id="gallery-title" class="canva-text section-title mt-5 text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">In the field.</h2>
+       </div>
+       <p data-template-id="gallery-copy" class="canva-text max-w-sm text-sm leading-relaxed text-[#abb1b3]" style="color: rgb(171, 177, 179); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">The moments behind the performance: focused preparation, engineering detail and race day performance.</p>
+      </div>
+      <div class="mt-12 grid auto-rows-[150px] gap-4 md:grid-cols-4">
+       <button class="gallery-item image-highlight group relative row-span-2 overflow-hidden text-left md:col-span-2" data-lightbox-image="gallery-1-image" data-lightbox-caption="gallery-1-caption"><img data-template-id="gallery-1-image" loading="lazy" class="canva-image h-full w-full object-cover grayscale" src="canva://MAHQSqp81M4/1" alt="STEALTH team members celebrating at the F1 in Schools National Finals."><span data-template-id="gallery-1-caption" class="canva-text absolute bottom-5 left-5 z-10 text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">2025 Development Class Nationals</span></button> <button class="gallery-item image-highlight group relative overflow-hidden text-left md:col-span-2" data-lightbox-image="gallery-2-image" data-lightbox-caption="gallery-2-caption"><img data-template-id="gallery-2-image" loading="lazy" class="canva-image h-full w-full object-cover grayscale" src="canva://MAHQdWmwhwI/1" alt="STEALTH team members gathered at a racing event display."><span data-template-id="gallery-2-caption" class="canva-text absolute bottom-5 left-5 z-10 text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Racing precision</span></button> <button class="gallery-item image-highlight group relative overflow-hidden text-left" data-lightbox-image="gallery-3-image" data-lightbox-caption="gallery-3-caption"><img data-template-id="gallery-3-image" loading="lazy" class="canva-image h-full w-full object-cover grayscale" src="canva://MAHQdWLL8D4/1" alt="STEALTH pit display illuminated with blue lighting in a dark room."><span data-template-id="gallery-3-caption" class="canva-text absolute bottom-5 left-5 z-10 text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Pit display development</span></button> <button class="gallery-item image-highlight group relative overflow-hidden text-left" data-lightbox-image="gallery-4-image" data-lightbox-caption="gallery-4-caption"><img data-template-id="gallery-4-image" loading="lazy" class="canva-image h-full w-full object-cover grayscale" src="canva://MAHQdRjnfs8/1" alt="STEALTH team members standing beside their project display at a competition."><span data-template-id="gallery-4-caption" class="canva-text absolute bottom-5 left-5 z-10 text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Pro Class Regionals 2026</span></button> <button class="gallery-item image-highlight group relative overflow-hidden text-left md:col-span-2" data-lightbox-image="gallery-5-image" data-lightbox-caption="gallery-5-caption"><img data-template-id="gallery-5-image" loading="lazy" class="canva-image h-full w-full object-cover grayscale" src="canva://MAHQL_3he4U/1" alt="STEALTH race replay showing miniature cars speeding down the track."><span data-template-id="gallery-5-caption" class="canva-text absolute bottom-5 left-5 z-10 text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">The race moment</span></button>
+      </div>
+     </div>
+    </section>
+    <section id="contact" class="technical-grid px-5 py-24 lg:px-8 lg:py-32">
+     <div class="mx-auto max-w-7xl">
+      <div class="grid gap-14 lg:grid-cols-[.85fr_1.15fr]">
+       <div>
+        <p data-template-id="contact-kicker" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">08 / CONTACT</p>
+        <h2 data-template-id="contact-title" class="canva-text section-title mt-5 text-5xl font-bold md:text-7xl" style="color: rgb(241, 242, 240); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: -0.05rem;">Start a conversation.</h2>
+        <p data-template-id="contact-copy" class="canva-text mt-7 max-w-md leading-relaxed text-[#b5bbbd]" style="color: rgb(181, 187, 189); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Whether you want to sponsor our season, collaborate, or follow our progress, we would like to hear from you.</p>
+        <div class="mt-10 space-y-5 border-t border-white/20 pt-7">
+         <div>
+          <p data-template-id="email-label" class="canva-text mono text-[10px] text-[#9da5a7]" style="color: rgb(157, 165, 167); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">EMAIL</p>
+          <p data-template-id="email-value" class="canva-text mt-1 text-lg font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">main@teamstealthwales.com</p><button id="copy-email" type="button" data-template-id="copy-email-button" class="canva-button outline-button mt-3 inline-flex items-center gap-2 px-4 py-3 text-xs font-bold uppercase tracking-[.13em]" style="background: none; color: rgb(244, 244, 241); font-weight: 700; letter-spacing: 0.07rem;"><i data-lucide="copy" class="h-4 w-4"></i><span data-template-id="copy-email-button-text" class="canva-text" style="color: rgb(244, 244, 241); font-weight: 700; font-style: normal; font-size: 16px;">Copy email</span></button> <span data-template-id="copy-confirmation" id="copy-confirmation" class="canva-text hidden text-xs text-[#cbd0d1]" style="color: rgb(203, 208, 209); font-weight: 400; font-style: normal; font-size: 16px;">Email copied to clipboard.</span>
+         </div>
+         <div>
+          <p data-template-id="school-label" class="canva-text mono text-[10px] text-[#9da5a7]" style="color: rgb(157, 165, 167); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">SCHOOL</p>
+          <p data-template-id="school-value" class="canva-text mt-1 text-sm" style="color: rgb(241, 242, 240); font-weight: 400; font-style: normal; font-size: 16px;">St John’s College, Cardiff </p>
+         </div>
+         <div class="pt-2">
+          <p data-template-id="find-us-label" class="canva-text eyebrow mb-3" style="color: rgb(200, 204, 206); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">FIND and follow US on</p>
+          <div class="flex items-center gap-3" aria-label="Social media links"><a data-template-id="youtube-social-link" class="canva-link inline-flex h-10 w-10 items-center justify-center border border-white/25 text-white transition-colors hover:border-white hover:bg-white/10" href="https://www.youtube.com/@team.stealth" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style="color: rgb(255, 255, 255);"><i data-lucide="youtube" class="h-4 w-4"></i></a><a data-template-id="tiktok-social-link" class="canva-link inline-flex h-10 w-10 items-center justify-center border border-white/25 text-white transition-colors hover:border-white hover:bg-white/10" href="https://tiktok.com/@team.stealth.wales" target="_blank" rel="noopener noreferrer" aria-label="TikTok" style="color: rgb(255, 255, 255);"><i data-lucide="music-2" class="h-4 w-4"></i></a><a data-template-id="instagram-social-link" class="canva-link inline-flex h-10 w-10 items-center justify-center border border-white/25 text-white transition-colors hover:border-white hover:bg-white/10" href="https://instagram.com/team.stealth.wales" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="color: rgb(255, 255, 255);"><i data-lucide="instagram" class="h-4 w-4"></i></a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="panel p-6 md:p-9">
+        <form id="contact-form">
+         <div class="grid gap-5 sm:grid-cols-2">
+          <div><label data-template-id="name-label" class="canva-text mb-2 block text-xs font-bold uppercase tracking-[.13em]" for="name" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">Name</label><input id="name" required="" type="text">
+          </div>
+          <div><label data-template-id="email-field-label" class="canva-text mb-2 block text-xs font-bold uppercase tracking-[.13em]" for="contact-email" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">Email</label><input id="contact-email" required="" type="email">
+          </div>
+         </div>
+         <div class="mt-5"><label data-template-id="organisation-label" class="canva-text mb-2 block text-xs font-bold uppercase tracking-[.13em]" for="organisation" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">Organisation (OPTIONAL)</label><input id="organisation" type="text">
+         </div>
+         <div class="mt-5"><label data-template-id="message-label" class="canva-text mb-2 block text-xs font-bold uppercase tracking-[.13em]" for="message" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">How can we help?</label><textarea id="message" required="" rows="5"></textarea>
+         </div><button data-template-id="form-submit" class="canva-button metal-button mt-6 inline-flex items-center gap-3 px-5 py-3 text-xs font-bold uppercase tracking-[.15em]" type="submit" style="background: rgb(233, 235, 234); color: rgb(17, 19, 21); font-weight: 700; letter-spacing: 0.08rem;"><span></span><i data-lucide="send" class="h-4 w-4"></i></button>
+        </form>
+        <div id="form-success" class="hidden py-12 text-center"><i data-lucide="check-circle-2" class="mx-auto h-9 w-9"></i>
+         <h3 data-template-id="form-success-title" class="canva-text mt-5 text-2xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Message prepared.</h3>
+         <p data-template-id="form-success-copy" class="canva-text mx-auto mt-3 max-w-sm text-sm leading-relaxed text-[#b5bbbd]" style="color: rgb(181, 187, 189); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Thank you for reaching out to STEALTH. Our team will respond using the contact details you provided.</p><button id="form-reset" data-template-id="form-reset-button" type="button" class="canva-button outline-button mt-7 px-4 py-3 text-xs font-bold uppercase tracking-[.13em]" style="background: none; color: rgb(244, 244, 241); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.07rem;">Send another enquiry</button>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+   </main>
+  </div>
+  <footer class="border-t border-white/10 bg-[#08090a] px-5 py-8 lg:px-8">
+   <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5">
+    <p data-template-id="footer-copy" class="canva-text mono text-[10px] text-[#9ba2a4]" style="color: rgb(155, 162, 164); font-weight: 400; font-style: normal; font-size: 16px; letter-spacing: 0.05rem;">© 2026 STEALTH / YOU’LL NEVER SEE US COMING</p><button id="back-top" data-template-id="back-top-button" class="canva-button inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[.14em]" style="color: rgb(255, 255, 255); font-weight: 700; letter-spacing: 0.07rem;"><span data-template-id="back-top-button-text" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Back to top</span><i data-lucide="arrow-up" class="h-4 w-4"></i></button>
+   </div>
+  </footer>
+  <div id="lightbox" class="lightbox fixed inset-0 z-50 hidden items-center justify-center p-5" role="dialog" aria-modal="true" aria-label="Gallery image viewer">
+   <button id="lightbox-prev" class="absolute left-4 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center border border-white/30 bg-black/50 text-white transition hover:bg-white/15" aria-label="Previous image"><i data-lucide="chevron-left"></i></button>
+   <div class="lightbox-panel">
+    <div class="lightbox-header flex items-center justify-between border-b border-white/15 px-5 py-4 sm:px-7">
+     <h2 data-template-id="lightbox-title" class="canva-text eyebrow" style="color: rgb(200, 204, 206); font-weight: 700; font-style: normal; font-size: 24px; letter-spacing: 0.12rem;">GALLERY / FIELD NOTES</h2><button id="lightbox-close" type="button" class="!static flex h-10 w-10 shrink-0 items-center justify-center border border-white/30 bg-black/30 text-white transition hover:border-white hover:bg-white/10" aria-label="Close gallery"><i data-lucide="x"></i></button>
+    </div>
+    <div class="lightbox-media px-4 py-4 sm:px-8 sm:py-6"><img id="lightbox-image" class="max-w-full object-contain" alt="">
+    </div>
+    <div id="lightbox-caption" class="lightbox-caption border-t border-white/15 px-5 py-3 text-center text-base font-bold leading-relaxed text-white sm:px-7 sm:py-4 sm:text-lg" aria-live="polite"></div>
+   </div><button id="lightbox-next" class="absolute right-4 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center border border-white/30 bg-black/50 text-white transition hover:bg-white/15" aria-label="Next image"><i data-lucide="chevron-right"></i></button>
+  </div>
+  <script src="/_sdk/5629ea66dc55d54f.editing_sdk.js" integrity="sha512-snPYzGvgiTEMUBOb+HlCBkFeiM0IRX4hcgA78wvalhC0WnJtaX+RCbosPWtNqZsZ7sZ9NwN0oePZYa+IlMwa+w=="></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      const revealTargets = document.querySelectorAll('main section:not(#home):not(#instagram-showcase), main section:not(#home):not(#instagram-showcase) > div, main section:not(#home):not(#instagram-showcase) article, main section:not(#home):not(#instagram-showcase) h2, main section:not(#home):not(#instagram-showcase) h3, main section:not(#home):not(#instagram-showcase) p, main section:not(#home):not(#instagram-showcase) img, #instagram-showcase > div:not(.insta-carousel), #instagram-showcase > div:not(.insta-carousel) h2, #instagram-showcase > div:not(.insta-carousel) p');
+      revealTargets.forEach((element, index) => { element.classList.add('scroll-reveal'); if (index % 3 === 1) element.style.setProperty('--reveal-delay','70ms'); if (index % 3 === 2) element.style.setProperty('--reveal-delay','140ms'); });
+      if ('IntersectionObserver' in window) { const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); revealObserver.unobserve(entry.target); } }), { threshold:.12, rootMargin:'0px 0px -8% 0px' }); revealTargets.forEach(element => revealObserver.observe(element)); } else { revealTargets.forEach(element => element.classList.add('is-visible')); }
+      const instaCards = [...document.querySelectorAll('.insta-card')]; let instaActive = 3, instaStartX = 0, instaDragging = false;
+      function renderInsta() { const mobile = innerWidth < 769; instaCards.forEach((card,i) => { let d = i - instaActive; if (d > 3) d -= 7; if (d < -3) d += 7; const x = d * (mobile ? 78 : 82); const z = Math.max(0, 4 - Math.abs(d)); card.style.transform = `translate(-50%,-50%) translateX(${x}%) translateZ(${z * 34}px) rotateY(${d * -7}deg) scale(${d === 0 ? 1 : Math.max(.68, 1 - Math.abs(d) * .11)})`; card.style.opacity = Math.abs(d) > (mobile ? 1 : 2) ? '0' : String(1 - Math.abs(d) * .2); card.style.filter = d === 0 ? 'brightness(1)' : 'brightness(.55)'; card.classList.toggle('is-active', d === 0); card.style.zIndex = String(10 - Math.abs(d)); }); }
+      function moveInsta(step) { instaActive = (instaActive + step + 7) % 7; renderInsta(); }
+      document.getElementById('insta-prev').addEventListener('click', () => moveInsta(-1)); document.getElementById('insta-next').addEventListener('click', () => moveInsta(1)); instaCards.forEach(card => card.addEventListener('click', e => { if (card.dataset.instaIndex === String(instaActive) && !e.target.closest('a')) window.open(card.querySelector('a').href, '_blank'); }));
+      const instaCarousel = document.getElementById('insta-carousel'); instaCarousel.addEventListener('pointerdown', e => { instaStartX = e.clientX; instaDragging = true; instaCarousel.setPointerCapture(e.pointerId); }); instaCarousel.addEventListener('pointerup', e => { if (!instaDragging) return; const delta = e.clientX - instaStartX; instaDragging = false; if (Math.abs(delta) > 35) moveInsta(delta < 0 ? 1 : -1); }); window.addEventListener('resize', renderInsta); renderInsta();
+      const hero = document.getElementById('home'), heroImage = hero.querySelector('.hero-parallax-image'), heroContent = hero.querySelector('.hero-parallax-content');
+      let heroFrame = 0;
+      function updateHeroParallax() {
+        heroFrame = 0;
+        const distance = Math.max(0, Math.min(hero.offsetHeight, window.scrollY));
+        const progress = Math.min(1, distance / Math.max(1, hero.offsetHeight * 0.55));
+        heroImage.style.transform = `translate3d(0,${progress * -90}px,0) scale(${1 - progress * 0.22})`;
+        heroImage.style.opacity = String(1 - progress * 0.65);
+        heroContent.style.transform = `translate3d(0,${progress * -42}px,0)`;
+        heroContent.style.opacity = String(1 - progress * 0.62);
+      }
+      function requestHeroParallax() { if (!heroFrame) heroFrame = requestAnimationFrame(updateHeroParallax); }
+      window.addEventListener('scroll', requestHeroParallax, { passive:true });
+      window.addEventListener('resize', requestHeroParallax);
+      updateHeroParallax();
+      const gallerySection = document.getElementById('gallery');
+      const lightbox = document.getElementById('lightbox');
+      gallerySection.appendChild(lightbox);
+      const menuButton = document.getElementById('menu-button'), mobileNav = document.getElementById('mobile-nav');
+      menuButton.addEventListener('click', () => { const open = mobileNav.classList.toggle('is-open'); menuButton.setAttribute('aria-expanded', String(open)); });
+      mobileNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { mobileNav.classList.remove('is-open'); menuButton.setAttribute('aria-expanded','false'); }));
+      document.getElementById('back-top').addEventListener('click', () => document.getElementById('home').scrollIntoView({behavior:'smooth'}));
+      const form = document.getElementById('contact-form'), success = document.getElementById('form-success'), submitButton = form.querySelector('button[type="submit"]');
+      let sheetReady = false;
+      const dataHandler = { onDataChanged() {} };
+      if (window.dataSdk) { window.dataSdk.init(dataHandler).then(result => { sheetReady = result && result.isOk; }); }
+      form.addEventListener('submit', async e => {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        const originalText = submitButton.querySelector('span');
+        submitButton.disabled = true;
+        submitButton.classList.add('opacity-60');
+        if (sheetReady) {
+          const result = await window.dataSdk.create({ name: document.getElementById('name').value.trim(), email: document.getElementById('contact-email').value.trim(), organisation: document.getElementById('organisation').value.trim(), message: document.getElementById('message').value.trim(), submitted_at: new Date().toISOString() });
+          if (!result.isOk) { submitButton.disabled = false; submitButton.classList.remove('opacity-60'); originalText.textContent = 'Try again'; return; }
+        }
+        form.classList.add('hidden'); success.classList.remove('hidden');
+        submitButton.disabled = false; submitButton.classList.remove('opacity-60');
+      });
+      document.getElementById('form-reset').addEventListener('click', () => { form.reset(); success.classList.add('hidden'); form.classList.remove('hidden'); });
+      document.getElementById('copy-email').addEventListener('click', async () => { try { await navigator.clipboard.writeText('main@teamstealthwales.com'); } catch(e) {} document.getElementById('copy-confirmation').classList.remove('hidden'); setTimeout(() => document.getElementById('copy-confirmation').classList.add('hidden'), 2200); });
+      const audiCard = document.querySelector('.sponsor-2'), audiLogo = document.querySelector('.sponsor-2-logo');
+      if (audiCard && audiLogo) {
+        audiLogo.addEventListener('click', () => audiCard.classList.toggle('is-color'));
+        audiLogo.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); audiCard.classList.toggle('is-color'); } });
+      }
+      const gallery = [...document.querySelectorAll('[data-lightbox-image]')], image = document.getElementById('lightbox-image'), caption = document.getElementById('lightbox-caption'); let activeIndex = 0;
+      function showImage(index) { activeIndex = (index + gallery.length) % gallery.length; const item = gallery[activeIndex], source = item.querySelector('img'); image.src = source.currentSrc || source.src; image.alt = source.alt; caption.textContent = item.querySelector('span').textContent; }
+      gallery.forEach((item,index) => item.addEventListener('click', () => { showImage(index); lightbox.classList.remove('hidden'); lightbox.classList.add('flex'); }));
+      function closeBox(){ lightbox.classList.add('hidden'); lightbox.classList.remove('flex'); }
+      document.getElementById('lightbox-close').addEventListener('click',closeBox); document.getElementById('lightbox-next').addEventListener('click',()=>showImage(activeIndex+1)); document.getElementById('lightbox-prev').addEventListener('click',()=>showImage(activeIndex-1));
+      document.addEventListener('keydown', e => { if(e.key==='Escape') closeBox(); if(!lightbox.classList.contains('hidden') && e.key==='ArrowRight') showImage(activeIndex+1); if(!lightbox.classList.contains('hidden') && e.key==='ArrowLeft') showImage(activeIndex-1); });
+    });
+  </script>
+ 
+</body></html>
